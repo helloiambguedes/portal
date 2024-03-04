@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useGSAP } from "@gsap/react";
 import styles from "./styled.module.css";
 
 export const MyBackground = () => {
@@ -69,7 +68,7 @@ export const MyBackground = () => {
 				<div className={styles.Container}>
 					<p>
 						<span className={styles.FirstPart}>2.</span>Since I was young, I
-						wanted to build something meaningful that I'd be proud of for years.
+						wanted to build something meaningful that I&rsquo;d be proud of for years.
 						So, I co-founded Mozantech, a place where we offer consulting and
 						software solutions based on what we believe is important in our
 						field.

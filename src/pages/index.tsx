@@ -3,8 +3,6 @@ import Script from "next/script";
 import { Welcome } from "@/components/welcome";
 import { WhatIDo } from "@/components/what-i-do";
 import { BrandMark } from "@/components/brand-mark";
-import "animate.css";
-import { useState } from "react";
 import { MyBackground } from "@/components/my-background";
 
 const TITLE = "helloiambguedes";
@@ -12,10 +10,6 @@ const DESCRIPTION =
 	"Welcome to my portal, the starting point to discover more about my career.";
 
 export default function Home() {
-	const [slides, setSlides] = useState({
-		1: undefined,
-		2: undefined,
-	});
 	return (
 		<>
 			<Head>
