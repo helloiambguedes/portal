@@ -118,9 +118,11 @@ export const Welcome = () => {
 				</section>
 				<div className={styles.WhatDoIDo}>
 					<h3>
-						from big scale software engineering
+						from big scale software to
 						<br />
-						to solopreneurship and freelancing
+						solopreneurship and freelancing
+						<br />
+						<span className={styles.FunnyRole}>everything but a designer 😅</span>
 					</h3>
 				</div>
 			</div>
