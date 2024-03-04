@@ -59,7 +59,7 @@ export const BrandMark = () => {
 						<Image src="/linkedin.svg" alt="linkedin" width={22} height={22} />
 					</a>
 					<a
-						href="mailto:bguedesdev@gmail.com"
+						href="mailto:in@helloiambguedes.com"
 						target="_blank"
 						rel="noreferrer"
 					>

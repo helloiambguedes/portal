@@ -102,7 +102,7 @@ export const Welcome = () => {
 						<Image src="/linkedin.svg" alt="linkedin" width={28} height={28} />
 					</a>
 					<a
-						href="mailto:bguedesdev@gmail.com"
+						href="mailto:in@helloiambguedes.com"
 						target="_blank"
 						rel="noreferrer"
 					>
