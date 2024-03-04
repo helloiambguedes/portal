@@ -1,0 +1,81 @@
+.App {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+	background: #000;
+	box-shadow: 0 0 300px 100px #000;
+	gap: 64px;
+	padding-bottom: 128px;
+}
+
+.PartContainer {
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.Container ul {
+	padding: 16px;
+	font-weight: 600;
+}
+
+.Container a:hover {
+	text-decoration: underline;
+}
+
+.ReversedPartContainer {
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 24px;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.PartContainer {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.ReversedPartContainer {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.ImagesContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+
+}
+
+.Container {
+	max-width: 1000px;
+	padding: 32px;
+	color: white;
+	margin: 0;
+	font-size: 14px;
+	font-family: "Titillium Web";
+	letter-spacing: 0.2rem;
+	text-align: left;
+	line-height: 1.8rem;
+}
+
+.FirstPart {
+	font-size: 32px;
+	letter-spacing: 0rem;
+	padding-right: 8px;
+	gap: 16px;
+}
