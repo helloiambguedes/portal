@@ -122,7 +122,9 @@ export const Welcome = () => {
 						<br />
 						solopreneurship and freelancing
 						<br />
-						<span className={styles.FunnyRole}>everything but a designer 😅</span>
+						<span className={styles.FunnyRole}>
+							everything but a designer 😅
+						</span>
 					</h3>
 				</div>
 			</div>
