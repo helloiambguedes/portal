@@ -1,27 +1,20 @@
 import Image from "next/image";
 import styles from "./styled.module.css";
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
 let toggleCallback = () => {};
 export const toggleBrandMark = toggleCallback;
 
 export const BrandMark = () => {
-	const [isShown, setIsShown] = useState(false);
-	useEffect(() => {
-		// @ts-ignore
-		toggleCallback = setIsShown;
-		return () => {
-			toggleCallback = () => {};
-		};
-	});
-	return isShown ? (
+	return (
 		<div className={styles.Container}>
 			<div>
 				<section className={styles.AboutMe}>
-					<h1>
+					<h1><Link href="/">
 						<span className={styles.BlueSpan}>hello</span>
 						<span className={styles.GreySpan}>iam</span>
 						<span>bguedes</span>
+						</Link>
 					</h1>
 				</section>
 				<section className={styles.List}>
@@ -75,7 +68,5 @@ export const BrandMark = () => {
 				</section>
 			</div>
 		</div>
-	) : (
-		<></>
 	);
 };

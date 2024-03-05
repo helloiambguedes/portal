@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./styled.module.css";
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 const imagesList = [
 	"/lifestyle-image.jpeg",
@@ -36,6 +37,7 @@ export const Welcome = () => {
 			// @ts-ignore
 			shadowRef.current.style.opacity = newOpacity;
 			setTimeout(() => {
+				if (!shadowRef.current) return;
 				// @ts-ignore
 				shadowRef.current.style.opacity = 0;
 			}, 1300);
@@ -54,18 +56,31 @@ export const Welcome = () => {
 						<span>bguedes</span>
 					</h1>
 				</section>
-				<div className={styles.ImageContainer}>
-					{/* @ts-ignore */}
-					<div className={styles.Shadow} ref={shadowRef} />
-					<Image
-						// @ts-ignore
-						ref={imageRef}
-						className={styles.AvatarImage}
-						src={imagesList[currentImage]}
-						alt="me"
-						width={320}
-						height={320}
-					/>
+				<div className={styles.FocusArea}>
+					<div />
+					<div className={styles.ImageContainer}>
+						{/* @ts-ignore */}
+						<div className={styles.Shadow} ref={shadowRef} />
+						<Image
+							// @ts-ignore
+							ref={imageRef}
+							className={styles.AvatarImage}
+							src={imagesList[currentImage]}
+							alt="me"
+							width={320}
+							height={320}
+						/>
+					</div>
+					<div>
+						<ul>
+							<li>
+								<Link href="/services">Services</Link>
+							</li>
+							{/* <li>
+								<Link href="/thoughts">Thoughts</Link>
+							</li> */}
+						</ul>
+					</div>
 				</div>
 				<section className={styles.List}>
 					<a
