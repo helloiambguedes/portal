@@ -71,7 +71,6 @@ export const Welcome = () => {
 							height={320}
 						/>
 					</div>
-					<div>
 						<ul>
 							<li>
 								<Link href="/services">Services</Link>
@@ -80,7 +79,6 @@ export const Welcome = () => {
 								<Link href="/thoughts">Thoughts</Link>
 							</li> */}
 						</ul>
-					</div>
 				</div>
 				<section className={styles.List}>
 					<a
