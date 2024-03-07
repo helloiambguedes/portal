@@ -115,6 +115,13 @@ export const Welcome = () => {
 					>
 						<Image src="/github.svg" alt="github" width={28} height={28} />
 					</a>
+					<a
+						href="https://medium.com/@helloiambguedes"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Image src="/medium.svg" alt="medium" width={28} height={28} />
+					</a>
 				</section>
 				<div className={styles.WhatDoIDo}>
 					<h3>

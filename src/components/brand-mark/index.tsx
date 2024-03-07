@@ -72,6 +72,13 @@ export const BrandMark = () => {
 					>
 						<Image src="/github.svg" alt="github" width={22} height={22} />
 					</a>
+					<a
+						href="https://medium.com/@helloiambguedes"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Image src="/medium.svg" alt="medium" width={28} height={28} />
+					</a>
 				</section>
 			</div>
 		</div>
