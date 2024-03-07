@@ -58,7 +58,6 @@
 	align-items: center;
 	justify-content: center;
 	gap: 8px;
-
 }
 
 .Container {
@@ -66,14 +65,13 @@
 	padding: 32px;
 	color: white;
 	margin: 0;
-	font-size: 14px;
-	font-family: "Titillium Web";
-	letter-spacing: 0.2rem;
+	font-size: 17px;
+	font-family: "Roboto";
 	text-align: left;
-	line-height: 1.8rem;
+	line-height: 1.4rem;
 }
 
-.FirstPart {
+.Title {
 	font-size: 32px;
 	letter-spacing: 0rem;
 	padding-right: 8px;

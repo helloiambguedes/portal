@@ -1,8 +1,5 @@
 import Head from "next/head";
 import Script from "next/script";
-import { Welcome } from "@/components/welcome";
-import { WhatIDo } from "@/components/what-i-do";
-import { MyBackground } from "@/components/my-background";
 
 const TITLE = "helloiambguedes";
 const DESCRIPTION =
@@ -26,9 +23,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
-				<Welcome />
-				<WhatIDo />
-				<MyBackground />
+				<h1>WIP</h1>
 			</main>
 			<Script
 				src="https://www.googletagmanager.com/gtag/js?id=G-D75SLEP2XJ"

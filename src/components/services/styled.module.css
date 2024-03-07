@@ -1,0 +1,70 @@
+.App {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+	background: #000;
+	font-family: "Roboto";
+	padding: 32px 32px 124px;
+	text-align: center;
+}
+
+.Title {
+	font-size: 32px;
+	letter-spacing: 0rem;
+	padding: 0 8px 8px 0;
+	font-family: "Titillium Web";
+	color: #eee;
+}
+
+.App ul {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	flex: 1;
+	margin: 32px 0;
+}
+
+.App ul li {
+	width: 	480px;
+	font-size: 25px;
+	color: #fff;
+	line-height: 1.25rem;
+	text-align: left;
+	font-style: "Roboto";
+	align-self: center;
+	line-height: 1.5rem;
+}
+
+.App ul li b {
+	color: #26b2ffbb;
+}
+
+.App ul li:nth-child(2n) {
+	text-align: right;
+}
+
+.App h1 {
+	font-family: "Titillium Web";
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffffbb;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.App h1:hover {
+	color: #ffffff;
+}
+
+@media (max-width: 600px) {
+	.App ul li {
+		width: 100%;
+	}
+}
